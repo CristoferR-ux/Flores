@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi Girasol</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-sunflowers">
+        <img src="imagenes/IMG_20240120_215323.jpg" alt="Girasol decorativo" class="sunflower-deco top-left">
+        <img src="imagenes/IMG_20230708_233001.jpg" alt="Girasol decorativo" class="sunflower-deco bottom-right">
+        <img src="imagenes/IMG_20230422_171257.jpg" alt="Girasol decorativo" class="sunflower-deco top-right">
+        <img src="imagenes/IMG_20230422_152641.jpg" alt="Girasol decorativo" class="sunflower-deco bottom-left">
+    </div>
+
+    <div class="envelope-container" id="envelope-container">
+        <div class="envelope">
+            <div class="lid"></div>
+            <div class="body"></div>
+            <div class="letter">
+                <p class="initial-message">Toca para abrir</p>
+                <div class="button-wrapper">
+                    <button id="open-button">Abrir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-container" id="content-container">
+        <header>
+            <h1 class="main-message" id="main-message"></h1>
+        </header>
+
+        <section class="sunflower-section">
+            <div class="sunflower-image" id="sunflower-image-container"></div>
+            <p class="love-message" id="love-message"></p>
+        </section>
+
+        <section class="photo-gallery">
+            <h2>Nuestros Momentos</h2>
+            <div class="gallery-grid" id="gallery-grid">
+                </div>
+        </section>
+
+        <footer>
+            <button class="footer-button" id="thanks-button"></button>
+            <button class="footer-button" id="gift-button"></button>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
